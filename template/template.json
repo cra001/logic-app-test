@@ -70,7 +70,7 @@
                             "type": "ApiConnection",
                             "inputs": {
                                 "body": {
-                                    "Body": "<p>Title: @{triggerBody()?['title']}<br>\n<br>\nDate published: @{triggerBody()?['updatedOn']}<br>\n<br>\nLink: @{triggerBody()?['primaryLink']}<br>\n<br>\nYes?: @{parameters('roof')}</p>",
+                                    "Body": "<p>Title: @{triggerBody()?['title']}<br>\n<br>\nDate published: @{triggerBody()?['updatedOn']}<br>\n<br>\nLink: @{triggerBody()?['primaryLink']}<br>\n<br>\nNo: @{parameters('roof')}</p>",
                                     "Importance": "Normal",
                                     "Subject": "(New RSS item) @{triggerBody()?['title']}",
                                     "To": "cra001@narratech.net"
